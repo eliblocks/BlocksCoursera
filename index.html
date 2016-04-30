@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<title>
+			Blocks: A Music Streaming Platform
+		</title>
+		<script src=" http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<h1 id="title" onclick="toggle()">
+				Blocks
+			</h1>
+			<img
+				src="blocks.png"
+				height="20%"
+			/>
+			<p> Welcome to Blocks, a place to share and find music.
+			</p>
+			<ul>
+				<li>
+					<a href=index.html>
+						Home	
+					</a>	
+				</li>
+				<li>
+					<a href="account.html">
+						Account
+					</a>
+				</li>
+				<li>
+					<a href="playlist.html">
+						Playlists
+					</a>
+				</li>
+				<li>
+					<a href="about.html">
+						About
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="container">
+			<div class="row" id="genre">
+				<div class="col-md-3" id="pop">POP</div>
+				<div class="col-md-3" id="country">Country</div>
+				<div class="col-md-3" id="hiphop">Hip Hop</div>	
+				<div class="col-md-3" id="edm">EDM</div>
+			</div>
+		</div>
+		<div class="container" id="songs">
+			<div class="row">
+				<p id="s1">Song 1</p>
+			</div>
+			<div class="row">
+				<p id="s2">Song 2</p>
+			</div>
+			<div class="row">
+				<p id="s3">Song 3</p>
+			</div>
+			<div class="row">
+				<p id="s4">Song 4</p>
+			</div>
+			<div class="row">
+				<p id="s5">Song 5</p>
+			</div>
+		</div>
+				
+	</body>
+	<script>
+		$("#pop").click(function(){
+			$("#s1").html("pop song 1");
+			$("#s2").html("pop song 2");
+			$("#s3").html("pop song 3");
+			$("#s4").html("pop song 4");
+			$("#s5").html("pop song 5");
+		});
+	</script>
+		<script>
+		$("#country").click(function(){
+			$("#s1").html("country song 1");
+			$("#s2").html("country song 2");
+			$("#s3").html("country song 3");
+			$("#s4").html("country song 4");
+			$("#s5").html("country song 5");
+		});
+	</script>
+		<script>
+		$("#hiphop").click(function(){
+			$("#s1").html("hiphop song 1");
+			$("#s2").html("hiphop song 2");
+			$("#s3").html("hiphop song 3");
+			$("#s4").html("hiphop song 4");
+			$("#s5").html("hiphop song 5");
+		});
+	</script>
+		<script>
+		$("#edm").click(function(){
+			$("#s1").html("EDM song 1");
+			$("#s2").html("EDM song 2");
+			$("#s3").html("EDM song 3");
+			$("#s4").html("EDM song 4");
+			$("#s5").html("EDM song 5");
+		});
+	</script>
+</html>
+	
+		
